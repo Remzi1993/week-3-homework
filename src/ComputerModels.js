@@ -64,7 +64,7 @@ class ComputerModels extends Component {
     handleSubmit = (event) => {
       event.preventDefault() // no refresh pls
       // console.log('submitting form')
-      console.log('I add > ', this.state.value);
+      console.log('Added > ', this.state.value);
       const action = {
           type: 'ADD_MODEL',
           payload: this.state.value

@@ -50,10 +50,10 @@ class ComputerModels extends Component {
     }
   
     tick() {
-      // let date = new Date()
-      // this.setState({
-      //   date: date
-      // });
+      let date = new Date()
+      this.setState({
+        date: date
+      });
     }
   
     updateSelection = (event) => {
